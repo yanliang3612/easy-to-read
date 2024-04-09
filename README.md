@@ -17,21 +17,13 @@ We strictly adhere to the hyperparameter settings as specified in these papers. 
 
 
 
+
+
+
+
 ## Configuration
 All the algorithms and models are implemented in Python and PyTorch Geometric. Experiments are
 conducted on a server with an NVIDIA 3090 GPU (24 GB memory) and an Intel(R) Xeon(R) Silver
 4210R CPU @ 2.40GHz.
 
-## Citation
-```
-@misc{yan2023unrealunlabeled,
-      title={UNREAL:Unlabeled Nodes Retrieval and Labeling for Heavily-imbalanced Node Classification}, 
-      author={Liang Yan and Shengzhong Zhang and Bisheng Li and Min Zhou and Zengfeng Huang},
-      year={2023},
-      eprint={2303.10371},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-## Acknowledgement
-This work is supported by National Natural Science Foundation of China No.U2241212, No.62276066. We extend our gratitude to Jaeyun-Song for their meticulous organization of the baselines implementation within the [TAM framework](https://github.com/Jaeyun-Song/TAM).
+
