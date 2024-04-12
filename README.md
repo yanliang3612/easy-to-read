@@ -18,7 +18,7 @@ pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_scatter-2.1.0%2B
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_sparse-0.6.16%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_spline_conv-1.2.1%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 ```
-## Running Parameters
+## Training Hyperparameters
 ### Cora-Semi (imbalance ratio= 10, 20, 50, 100)
 - Cora-GCN (imbalance ratio= 10)
   ```bash
