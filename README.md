@@ -19,6 +19,7 @@ pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_sparse-0.6.16%2B
 pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_spline_conv-1.2.1%2Bpt112cu113-cp38-cp38-linux_x86_64.whl
 ```
 ## Running Parameters
+### Cora-Semi (imbalance ratio= 10, 20, 50, 100)
 - Cora-GCN (imbalance ratio= 10)
   ```bash
   python main.py --dataset Cora --repetitions 5 --imb_ratio 10 --net GCN  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
