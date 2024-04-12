@@ -69,9 +69,105 @@ pip install https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_spline_conv-1.2.
   python main.py --dataset Cora --repetitions 5 --imb_ratio 100 --net SAGE  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
   ```
 
+### CiteSeer-Semi (imbalance ratio= 10, 20, 50, 100)
+- CiteSeer-GCN (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 10 --net GCN  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GAT (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 10 --net GAT  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-SAGE (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 10 --net SAGE  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GCN (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 20 --net GCN  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GAT (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 20 --net GAT  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-SAGE (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 20 --net SAGE  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GCN (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 50 --net GCN  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GAT (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 50 --net GAT  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-SAGE (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 50 --net SAGE  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GCN (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 100 --net GCN  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-GAT (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 100 --net GAT  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
+- CiteSeer-SAGE (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset CiteSeer --repetitions 5 --imb_ratio 100 --net SAGE  --rounds 10 --ad 5 --rbo 0.5 --threshold 0.25
+  ```
 
-
-
+### PubMed-Semi (imbalance ratio= 10, 20, 50, 100)
+- PubMed-GCN (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 10 --net GCN  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GAT (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 10 --net GAT  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-SAGE (imbalance ratio= 10)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 10 --net SAGE  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GCN (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 20 --net GCN  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GAT (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 20 --net GAT  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-SAGE (imbalance ratio= 20)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 20 --net SAGE  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GCN (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 50 --net GCN  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GAT (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 50 --net GAT  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-SAGE (imbalance ratio= 50)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 50 --net SAGE  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GCN (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 100 --net GCN  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-GAT (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 100 --net GAT  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
+- PubMed-SAGE (imbalance ratio= 100)
+  ```bash
+  python main.py --dataset  PubMed --repetitions 5 --imb_ratio 100 --net SAGE  --rounds 40 --ad 4 --rbo 0.5 --threshold 0.25
+  ```
 
 
 ## Baselines
